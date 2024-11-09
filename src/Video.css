@@ -1,0 +1,24 @@
+.vdzsod{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+}
+.vdzsod video{
+    height: auto;
+    width: 80%;
+    max-width: 900px;
+    border-top: 2px solid #212ea0;
+    border-right: 2px solid #212ea0;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+}
+.vdzsod.hide{
+    display: none;
+}

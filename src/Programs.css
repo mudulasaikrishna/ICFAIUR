@@ -1,0 +1,243 @@
+.basement{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2%;
+}
+.fix{
+    text-align: center;
+    color: #212ea0;
+}
+.ulo{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.lo{
+    font-size: 15px;
+    color:#808184;
+}
+.base{
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.supports{
+    position: relative;
+} 
+.gradb{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.imgs{
+    box-shadow: 0 0 2px #212ea0;
+    width: 35vw;
+    height: auto;
+    border-radius: 10px;
+}
+.one{
+    height: 80px;
+    width: 80px;
+}
+.two{
+    height: 80px;
+    width: 60px;
+}
+.captions{
+    background-color: rgba(0,15,152,0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: none;
+    color: white;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.5s;
+    padding-top: 70%;
+    cursor: pointer;
+}
+.supports:hover .captions{
+    opacity: 1;
+    padding-top: 0;
+}
+
+@media(max-width:1000px){
+    .basement{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fix{
+        text-align: center;   
+        color: #212ea0;
+    }
+    .ulo{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    .lo{
+        font-size: 10px;
+        color:#808184;
+    }
+    .base{
+        width: 80vw;
+        height: 70vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .supports{
+        position: relative;
+    } 
+    .imgs{
+        box-shadow: 0 0 2px #212ea0;
+        width: 35vw;
+        height: auto;
+        border-radius: 10px;
+    }
+    .one{
+        height: 80px;
+        width: 80px;
+    }
+    .two{
+        height: 80px;
+        width: 60px;
+    }
+    .captions{
+        background-color: rgba(0,15,152,0.2);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: none;
+        color: white;
+        font-weight: 600;
+        opacity: 0;
+        transition: 0.5s;
+        padding-top: 70%;
+        cursor: pointer;
+    }
+    .supports:hover .captions{
+        opacity: 1;
+        padding-top: 0;
+    }  
+}
+@media(max-width:1150px){
+    .lo{
+        font-size: 12px;
+        color:#808184;
+    }   
+}
+@media(max-width:800px){
+    .lo{
+        font-size: 10px;
+        color:#808184;
+    }   
+}
+@media(max-width:700px){
+    .lo{
+        font-size: 7px;
+        color:#808184;
+        flex-wrap: wrap;
+    }   
+}
+@media(max-width:500px){
+    .basement{
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fix{
+        text-align: center;   
+        color: #212ea0;
+        font-size: 12px;
+    }
+    .ulo{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+    .lo{
+        margin: 2px;
+        font-size: 8px;
+        color:#808184;
+    }
+    .base{
+        width: 80vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .supports{
+        position: relative;
+    } 
+    .imgs{
+        width: 80vw;
+        height: auto;
+        border-radius: 5px;
+    }
+    .one{
+        height: 40px;
+        width: 40px;
+    }
+    .two{
+        height: 40px;
+        width: 30px;
+    }
+    .captions{
+        background-color: rgba(0,15,152,0.2);
+        position: absolute;
+        top: 0;
+        bottom: 0%;
+        left: 0;
+        right: 0;
+        display: flex;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        font-weight: 600;
+        opacity: 1;
+        transition: 0.5s;
+        padding-top: 0%;
+        cursor: pointer;
+    }
+    .supports:hover .captions{
+        opacity: none;
+        padding-top: 0;
+    }  
+}

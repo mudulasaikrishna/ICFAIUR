@@ -1,0 +1,175 @@
+.hv{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+.ulogo{
+    height: 45px;
+    width: 100px;
+    border: 0.5px solid white;
+}
+
+.btn1{
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    color: #212ea0;
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn1:hover{
+    background-color: #212EA0;
+    color: white;
+    transition: 0.5s;
+}
+.btn1:active{
+    background-color: white;
+    color: #212EA0;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    outline: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.zxc{
+    height:30px;
+    width: auto;
+    padding: 3px 3px 0px 3px;
+}
+.zxc:hover{
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+
+.zxc:active{
+    border-bottom: 2px solid red;
+    transition: 0.2s;
+}
+.darknav{
+    background-color: #212EA0;
+    transition: 1s;
+}
+.menu{
+    display: none;
+}
+
+/*Media queries*/
+
+@media(max-width:1000px){ 
+    .hv{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 2.5%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+    }
+    .ulogo{
+        height: 30px;
+        width: 70px;
+        border: 0.5px solid white;
+    }
+    .btn1{
+        border: none;
+        height: 25px;
+        width: 60px;
+        border-radius: 5px;
+        color: #212ea0;
+        background-color: white;
+        cursor: pointer;
+        font-size: 10px;
+    }   
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        outline: none;
+        font-size: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}
+@media(max-width:500px){ 
+    nav ul{
+        width: 120px;
+        position: fixed;
+        top:0;
+        padding-top: 80px;
+        right: 0;
+        bottom: 40%;
+        z-index: -1;
+        background:linear-gradient(#212EA0,#ee0505);
+        transition: 0.5s;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .ulogo{
+        height: 25px;
+        width: 60px;
+        border: 0.5px solid white;
+    }
+    .menu{
+        display: block;
+        height: 25px;
+        width: 25px;
+        margin: 0 15px;
+    }
+    .btn1{
+        border: none;
+        height: 20px;
+        width: 60px;
+        border-radius: 3px;
+        color: #212ea0;
+        background-color: white;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        outline: none;
+        margin: 25px 20px;
+        font-size: 10px;
+        color: white;
+        cursor: pointer;
+        display: block;
+    }
+    .darknav{
+        background-color: #212EA0;
+        transition: 1s;
+    }
+    .hide-menu{
+        right: -120px;
+    }
+    .hv{
+        height: 45px;
+    }
+    .zxc:hover{
+        transform: scale(1.3);
+        transition: 0.5s;
+        border-bottom: none;
+    }
+    
+    .zxc:active{
+        border-bottom: none;
+        transition: 0.2s;
+    }
+
+    
+}

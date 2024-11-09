@@ -1,0 +1,124 @@
+.mgi{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fix{
+    margin-top: 50px;
+}
+.fix p{
+    font-size: 15px;
+    color:#808184;
+}
+.ims{
+    width: 330px;
+    height: 210px;
+    border-radius: 8px;
+    margin: 20px 0px 10px 0px;
+    border: .5px solid black;
+}
+.im{
+    width: 330px;
+    height: 210px;
+    border-radius: 8px;
+    margin: 20px 0px 10px 0px;
+    border: .5px solid black;
+}
+.btnd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.btn4{
+    height: 35px;
+    width: 150px;
+    background-color: rgb(47, 47, 220);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+.spo{
+    display: none;
+}
+.btn4:hover{
+    border: 2px solid #212ea0;
+    background-color: white;
+    color: #212ea0;
+    transition: 0.5s;
+}
+@media(max-width:500px){
+    .mgi{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .ims{
+        display: none;
+    }
+    .gi{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .dt{
+        display: none;
+    }
+    .fix{
+        margin-top: 0px;
+    }
+    .fix p{
+        font-size: 10px;
+        color:#808184;
+    }
+    .spo{
+        display: block;
+        width: 95vw;
+        height: auto;
+        border: .5px solid black;
+        border-radius: 8px;
+        margin: 5px 0px;
+    }
+    .im{
+        width: 45vw;
+        height:130px;
+        border-radius: 8px;
+        margin: 5px 0px;
+        border: .5px solid black;
+    }
+    .btnd{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .btn4{
+        height: 25px;
+        width: 70px;
+        background-color: rgb(47, 47, 220);
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-size: 8px;
+    }
+    .btn4:hover{
+        border: 2px solid #212ea0;
+        background-color: white;
+        color: #212ea0;
+        transition: 0.5s;
+    }
+}

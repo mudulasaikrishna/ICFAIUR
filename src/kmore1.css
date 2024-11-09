@@ -1,0 +1,277 @@
+.kmore{
+    padding: 50px 0px;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modati0{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    width: 80vw;
+    margin-bottom: 50px;
+}
+.yadam0{
+    width: 40vw;
+    height: auto;
+}
+.yadam0 img{
+    width: 38vw;
+    height: auto;
+    border-radius: 5px;
+}
+.kudi0{
+    width: 38vw;
+    padding-right: 15px;
+}
+.blue{
+    color: #212ea0;
+}
+.modati{
+    padding: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.yadam{
+    width: 40vw;
+    height: auto;
+}
+.yadam img{
+    width: 38vw;
+    height: auto;
+    border-radius: 5px;
+}
+.kudi{
+    width: 38vw;
+}
+.rendo{
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.kudi1{
+    width: 38vw;
+    height: auto;
+}
+.kudi1 img{
+    width: 37vw;
+    height: auto;
+    border-radius: 5px;
+}
+.yadam1{
+    width: 38vw;
+}
+.chinna{
+    font-size: 15px;
+    color: rgb(72, 74, 76);
+    text-align: justify;
+}
+.pedda{
+    color: #212ea0;
+}
+.madya{
+    text-align: center;
+}
+.moodu{
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.yadam2{
+    width: 38vw;
+    height: auto;
+}
+.yadam2 img{
+    width: 38vw;
+    height: auto;
+    border-radius: 5px;
+}
+.kudi2{
+    width: 38vw;
+}
+.chinna1{
+    font-size: 15px;
+    color: rgb(72, 74, 76);
+}
+.pedda1{
+    color: #212ea0;
+}
+.info-placements{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.per{
+    color: rgb(233, 65, 5);
+}
+.bpla{
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+@media(max-width:500px){
+    .kmore{
+        height: auto;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .modati0{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 80vw;
+    }
+    .yadam0{
+        width: 75vw;
+        height: auto;
+    }
+    .yadam0 img{
+        width: 75vw;
+        height: auto;
+        border-radius: 5px;
+    }
+    .kudi0{
+        width: 75vw;
+        padding-right: 0px;
+    }
+    .modati{
+        padding: 20px;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 80vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .yadam{
+        width: 75vw;
+        height: auto;
+    }
+    .yadam img{
+        width: 75vw;
+        height: auto;
+        border-radius: 2.5px;
+    }
+    .kudi{
+        width: 75vw;
+    }
+    .rendo{
+        padding: 20px;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 80vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .kudi1{
+        width: 75vw;
+        height: auto;
+    }
+    .kudi1 img{
+        width: 75vw;
+        height: auto;
+        border-radius: 5px;
+    }
+    .yadam1{
+        width: 75vw;
+    }
+    .chinna{
+        font-size: 9px;
+        color: rgb(72, 74, 76);
+    }
+    .pedda{
+        margin-top: 20px;
+        font-size: 12px;
+        color: #212ea0;
+    }
+    .madya{
+        text-align: center;
+        font-size: 10px;
+    }
+    .moodu{
+        margin-bottom: 25px;
+        padding: 20px;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 80vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .yadam2{
+        width: 75vw;
+        height: auto;
+    }
+    .yadam2 img{
+        width: 75vw;
+        height: auto;
+        border-radius: 5px;
+    }
+    .kudi2{
+        width: 75vw;
+    }
+    .chinna1{
+        font-size: 9px;
+        color: rgb(72, 74, 76);
+    }
+    .pedda1{
+        font-size: 12px;
+        color: #212ea0;
+    }
+    .info-placements{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .per{
+        color: rgb(233, 65, 5);
+        font-size: 13px;
+    }
+    .bpla{
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .plai{
+        font-size: 10px;
+    }
+    .blue{
+        color: #212ea0;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,162 @@
+.hero{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./maini.png');
+    background-size: cover;
+}
+.cotations{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    color: white;
+}
+.btn2{
+    padding: 10px;
+    height: 40px;
+    width: 120px;
+    outline: none;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #212ea0;
+    cursor: pointer;
+}
+.btn2:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: #212ea0;
+}
+.btn2:active{
+    background-color: white;
+    color: #212ea0;
+}
+.btn2 img{
+    color: white;
+    height: 10px;
+    width: 20px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #212ea0;
+}
+p{
+    font-size: large;
+    margin: 20px 0px;
+}
+
+/*Media queries*/
+
+@media(max-width:1200px){ 
+    .cotations{
+        width: 100%;
+        text-align: center;
+        padding:0 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 40%;
+        color: white;
+    }
+    .btn2{
+        padding: 6px;
+        height: 25px;
+        width: 80px;
+        outline: none;
+        border-radius: 2.5px;
+        background-color: white;
+        border: none;
+        font-size: 10px;
+        line-height: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgb(4, 1, 1);
+        cursor: pointer;
+    }
+    .btn2 img{
+        height: 6px;
+        width: 12px;
+    }
+    h1{
+        font-size: 30px;
+        font-weight: 600;
+        color: #212ea0;
+    }
+    p{
+        font-size: small;
+        margin: 10px 0px;
+        max-width: 60vw;
+    }
+}
+@media(max-width:500px){ 
+    .cotations{
+        width: 100%;
+        text-align: center;
+        padding:0 2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 40%;
+        color: white;
+    }
+    .btn2{
+        padding: 4px;
+        height: 25px;
+        width: 60px;
+        outline: none;
+        border-radius: 2px;
+        background-color: white;
+        border: none;
+        font-size: 8px;
+        line-height: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgb(4, 1, 1);
+        cursor: pointer;
+    }
+    .btn2 img{
+        height: 5px;
+        width: 9px;
+    }
+    h1{
+        font-size: 25px;
+        font-weight: 600;
+        color: #212ea0;
+    }
+    p{
+        font-size: 10px;
+        margin: 10px 0px;
+        max-width: 90vw;
+    }
+    .ig{
+        height: 100vh;
+        width: 100vw;       
+    }
+    .hero{
+        background-image: url('./smallmain.png');
+        background-size: cover;
+    }
+}

@@ -1,0 +1,146 @@
+.testi{
+    width: 100vw;
+    height: 80vh;
+    position: relative;  
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nxt{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #212Ea0;
+    margin-right: 20px;
+}
+.bk{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #212Ea0;
+    margin-left: 20px;
+}
+.uis{
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+    width: 200%;
+    transition: 1s;
+}
+.rp{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    border: 3px solid #212Ea0;
+}
+.slide{
+    display: flex;
+}
+.sd{
+    list-style: none;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+    padding: 10px;
+    border-radius: 10px;
+}
+.para{
+    font-size: 14px;
+    max-width: 350px;
+    text-align: justify;
+}
+.h{
+    color: black;   
+    margin: 0;
+}
+span{
+    font-size: 13px;
+    font-weight: 500;
+}
+.ma{
+    margin-left: 10px;
+}
+.nm{
+    margin-bottom: 100px;
+}
+@media(max-width:500px){
+    .testi{
+        width: 100vw;
+        height: 60vh;
+        position: relative;  
+        display: flex;  
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .bk{
+        height: 40px;
+        width: 40px;
+    }
+    .kjh{
+        text-align: center;
+    }
+    .nxt{
+        height: 40px;
+        width: 40px;
+       
+    }
+    .nm{
+        margin-bottom: 0px;
+    }
+    .uis{
+        height: 25vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow-x: hidden;
+        width: 200%;
+        transition: 1s;
+        padding: 0px 10px;
+    }
+    .sd{
+        list-style: none;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 1);
+        padding: 5px;
+        border-radius: 5px;
+        margin-left: 10px;
+        height: 100px;
+    }
+    .para{
+        font-size: 8px;
+    }
+    .h{
+        font-size: 10px;
+    }
+    span{
+        margin-left: 5px;
+        font-size: 9px;
+    }
+    .ma{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rp{
+        height: 30px;
+        width: 30px;
+        border: 1px solid #212Ea0;
+        border-radius: 50%;
+    }
+    .slider{
+        height: 120px;
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+}

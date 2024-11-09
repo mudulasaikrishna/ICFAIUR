@@ -1,0 +1,37 @@
+.footer{
+    margin-top: 40px;
+    width: 80vw;
+    border-top: 1px solid #212ea0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.js{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hq{
+    font-size: 13px;
+}
+
+@media(max-width:450px){
+    .footer{
+        margin-top: 0px;
+        width: 85vw;
+        border-top: .5px solid #212ea0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .js{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hq{
+        font-size: 6px;
+    }
+}

@@ -1,0 +1,208 @@
+.mainer{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lefty{
+    width: 40vw;
+    margin-bottom: 60px;
+}
+.lefty p{
+    max-width: 550px;
+    text-align: justify;
+}
+.shcu{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aads{
+    list-style: none;
+}
+.huhu1{
+    height: 20px;
+    width: 25px;
+    margin-left: 10px;
+}
+.huhu2{
+    height: 15px;
+    width: 20px;
+    margin-right: 10px;
+}
+.huhu3{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.huhu4{
+    height: 20px;
+    width: 15px;
+    margin-right: 10px;
+}
+.righty{
+    width: 40vw;
+   margin-right: 70px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: rgb(194, 200, 200);
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+input:focus{
+    border: 2px solid #212ea0;
+}
+textarea{
+    width: 100%;
+    height: 80px;
+    border: none;
+    background-color: rgb(194, 200, 200);
+    border-radius: 10px;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    outline: none;
+}
+textarea:focus{
+    border: 2px solid #212ea0;
+}
+.btns{
+    height: 30px;
+    width: 80px;
+    background-color: #212ea0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+.btns:focus{
+    border: 2px solid #212ea0;
+    background-color: white;
+    color: #212ea0;
+    transition: 0.5s;
+}
+.nut{
+    margin-left: 20px;
+}
+
+@media(max-width:500px){
+    .mainer{
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fix h2{
+        font-size: 15px;
+    }
+    ul{
+        margin-top: 10px;
+    }
+    .lefty{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lefty ul li{
+        max-width: 80vw;
+    }
+    .lefty h3{
+        font-size: 15px;
+    }
+    .lefty p{
+        max-width: 80vw;
+        font-size: 9px;
+    }
+    .shcu{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .aads{
+        list-style: none;
+        font-size: 9px;
+    }
+    .huhu1{
+        height: 13px;
+        width: 15px;
+        margin-left: 02px;
+    }
+    .huhu2{
+        height: 8px;
+        width: 13px;
+        margin-right: 02px;
+    }
+    .huhu3{
+        height: 10px;
+        width: 11px;
+        margin-right: 02px;
+    }
+    .huhu4{
+        height: 12px;
+        width: 10px;
+        margin-right: 02px;
+    }
+    .righty{
+        width: 95vw;
+        margin-right: 0px;
+        text-align: center;
+    }
+    input{
+        font-size: 9px;
+        width: 100%;
+        height: 20px;
+        border: none;
+        background-color: rgb(194, 200, 200);
+        border-radius: 3px;
+        text-align: center;
+    }
+    form label{
+        font-size: 10px;
+    }
+    textarea{
+        font-size: 9px;
+        width: 95vw;
+        height: 40px;
+        border: none;
+        background-color: rgb(194, 200, 200);
+        border-radius: 3px;
+        padding-top: 12px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .btns{
+        height: 20px;
+        width: 40px;
+        background-color: #212ea0;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        margin-top: 0px;
+        font-size: 9px;
+    }
+    .btns:active{
+        border: 2px solid #212ea0;
+        background-color: white;
+        color: #212ea0;
+        transition: 0.5s;
+    }
+    .nut{
+        margin-left: 04px;
+    }
+}
